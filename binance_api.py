@@ -17,7 +17,7 @@ import aiohttp
 import asyncio
 from datetime import datetime, timezone
 
-SPOT_BASE    = "https://api.binance.com"
+SPOT_BASE    = "https://api3.binance.com"
 FUTURES_BASE = "https://fapi.binance.com"
 
 SUPPORTED_COINS = ["BTC", "ETH", "BNB", "SOL", "XRP", "DOGE", "ADA", "AVAX", "DOT", "MATIC"]
