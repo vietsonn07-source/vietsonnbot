@@ -409,7 +409,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ══════════════════════════════════════════════════════════════════════════════
 
 def main():
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    token = os.environ.get("8287497174:AAF2nNaaYiWdSVe0IbKdL2dYFd54q35AGHw")
     if not token:
         raise ValueError("❌ Vui lòng set biến môi trường TELEGRAM_BOT_TOKEN")
 
